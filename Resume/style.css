@@ -7,11 +7,11 @@ BODY {
   font-weight: 400;
 }
 
-h1 {
+#name {
   font-size: 3em;
   text-transform: uppercase;
   text-align: center;
-  color: #33485e;
+  border-bottom: 1px solid #33485e;
 }
 
 strong{
