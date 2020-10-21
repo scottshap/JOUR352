@@ -9,6 +9,15 @@
   font-style: italic;
 }
 
+#pullquote {
+font-weight: bolder;
+font-size: 30px;
+font-style: italic;
+padding: 20px;
+padding-left: 20px;
+position: relative;
+}
+
 .h1 {
   font-family: Helvetica, sans-serif;
   font-size: 12px;
