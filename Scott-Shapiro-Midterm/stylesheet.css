@@ -3,6 +3,17 @@
   width: 900px;
 }
 
+#pullquote {
+font-weight: bolder;
+font-size: 30px;
+font-style: italic;
+color: purple;
+margin-top: 15px;
+margin-left: 50px;
+padding-left: 15px;
+border-left: 4px solid #ccc;
+}
+
 .header {
 font-size: 40px;
 font: serif;
