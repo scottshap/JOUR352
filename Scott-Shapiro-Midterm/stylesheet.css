@@ -9,13 +9,43 @@ font: serif;
 font-weight: bolder;
 }
 
+.subheader{
+  font-size: 20px;
+  font: serif;
+  font-weight: bolder;
+}
+
 .byline {
   font-size: 15px;
 font-style: italic;
   font: serif;
 }
 
+.caption {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+font-style: italic;
+  font: serif;
+}
+
+
+ /*Move caption to left under image*/
+.caption2{
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+font-style: italic;
+  font: serif;
+  float: left;
+  margin: 600px 160px 18px -320px;
+  text-align: left;
+}
+
 p {
   font: Helvetica, Arial, sans-serif;
   font-size: 12px;
+}
+
+img {
+float: left;
+padding-right: 15px;
 }
