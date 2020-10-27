@@ -10,8 +10,9 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbar-fixed/">
 
-    <!-- Bootstrap core CSS -->
-<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
 
     <style>
 
@@ -26,6 +27,24 @@ h4 {
 
 h5{
   font-size: 12px;
+}
+
+#bannerimage {
+  width: 100%;
+  background-image: url(https://www.epx.com/app/default/files/s3_test_adapter/s3_images/banner-press.jpg?v=1594313508);
+  height: 405px;
+  background-color: purple;
+  background-position: center;
+  margin: 30px;
+  font-size: 50px;
+  text-align: center;
+  font-style: italic;
+  color: white;
+  padding: 150px;
+}
+
+img{
+  padding: 20px;
 }
 
       .bd-placeholder-img {
@@ -49,29 +68,25 @@ h5{
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <a class="navbar-brand" href="#">Navigate</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarCollapse">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav mx-auto">
       <li class="nav-item active">
         <a class="nav-link" href="#">Journalism Experience<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Work Experience</a>
+        <a class="nav-link" href="#workexperience">Work Experience</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Education</a>
+        <a class="nav-link" href="#education">Education</a>
       </li>
     </ul>
-    <form class="form-inline mt-2 mt-md-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </div>
 </nav>
 
+<div id="bannerimage">Scott Shapiro's Resume</div>
 
 <div class="container">
         <div class="row">
@@ -88,8 +103,6 @@ h5{
                 <div class="col-md-12">
                         <h4>Sinclair Broadcast Group <i>(Intern)</i></h4>
                         <h5><i>Sports Team</i></h5>
-                        <p>I would help edit graphics for sports segments, assist in covering D.C. United games, organize our archives, log sporting events, and help edit interviews.</p>
-</p>
                 </div>
         </div>
 </div>
@@ -98,7 +111,7 @@ h5{
         <div class="row">
 
                 <div class="col-md-6">
-                        <img src="sinclair.jpg" alt="Sinclair" width="200px" height="100px">
+                        <img src="images/sinclair.jpg" alt="Sinclair" width="150px" height="150px">
                 </div>
                 <div class="col-md-6">
                         <p>I would help edit graphics for sports segments, assist in covering D.C. United games, organize our archives, log sporting events, and help edit interviews.</p>
@@ -106,7 +119,135 @@ h5{
         </div>
 </div>
 
+<div class="container">
+        <div class="row">
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+                <div class="col-md-12">
+                        <h4>CNS (Capital News Service)</h4>
+                        <h5><i>Reporter</i></h5>
+                        <h5><i>September 2017-Present</i></h5>
+                </div>
+        </div>
+</div>
+
+<div class="container">
+        <div class="row">
+
+                <div class="col-md-6">
+                        <img src="images/cns.jpg" alt="CNS" width="150px" height="150px">
+                </div>
+                <div class="col-md-6">
+                        <p>I reported on sports during our live broadcasts, as well as, edited and assisted in creating packages and graphics for the show.</p>
+                </div>
+        </div>
+</div>
+
+<div class="container">
+        <div class="row">
+
+                <div class="col-md-12">
+                        <h4>The Jet Gazette</h4>
+                        <h5><i>Sports Editor</i></h5>
+                        <h5><i>April 2016-June 2017</i></h5>
+                </div>
+        </div>
+</div>
+
+
+<div class="container">
+        <div class="row">
+
+                <div class="col-md-6">
+                        <img id= "workexperience" src="images/east meadow.jpg" alt="EM" width="150px" height="150px">
+                </div>
+                <div class="col-md-6">
+                        <p> I edited all articles submitted to the sports section of high school newspaper. I would also interview student athletes and write monthly articles.</p>
+                </div>
+        </div>
+</div>
+
+<div class="container">
+        <div class="row">
+
+                <div class="col-md-12">
+                        <h3>Work Experience:</h3>
+                </div>
+        </div>
+</div>
+
+<div class="container">
+        <div class="row">
+
+                <div class="col-md-12">
+                        <h4>John Moore's Deli</h4>
+                        <h5><i>Busboy/Delivery</i></h5>
+                        <h5><i>June 2018-August 2018</i></h5>
+                </div>
+        </div>
+</div>
+
+
+<div class="container">
+        <div class="row">
+
+                <div class="col-md-6">
+                        <img src="images/John Moore's.jpg" alt="Deli" width="150px" height="150px">
+                </div>
+                <div class="col-md-6">
+                        <p>Delivered food to clientele.</p>
+                </div>
+        </div>
+</div>
+
+<div class="container">
+        <div class="row">
+
+                <div class="col-md-12">
+                        <h4>Coleman Country Day Camp</h4>
+                        <h5><i>Camp Counselor</i></h5>
+                        <h5><i>June 2013-August 2017</i></h5>
+                </div>
+        </div>
+</div>
+
+
+<div class="container">
+        <div class="row">
+
+                <div class="col-md-6">
+                        <img id="education" src="images/coleman.jpg" alt="camp" width="150px" height="150px">
+                </div>
+                <div class="col-md-6">
+                        <p>Provided care for a group of 20 children between the ages of 10 and 12.</p>
+                </div>
+        </div>
+</div>
+
+<div class="container">
+        <div class="row">
+
+                <div class="col-md-12">
+                        <h3>Education:</h3>
+                </div>
+        </div>
+</div>
+
+<div class="container">
+        <div class="row">
+
+                <div class="col-md-6">
+                        <img src="images/umd.jpg" alt="degree" width="150px" height="150px">
+                </div>
+                <div class="col-md-6">
+                        <p>Bachelor of Arts, Broadcast Journalism, University of Maryland, 2021</p>
+                </div>
+        </div>
+</div>
+
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </html>
