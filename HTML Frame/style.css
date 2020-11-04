@@ -1,3 +1,17 @@
 .nav {
   position: fixed;
 }
+
+.headline {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.byline {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  text-align: center;
+}
