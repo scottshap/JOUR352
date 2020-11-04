@@ -17,10 +17,12 @@
 }
 
 .chapterheadline {
-  font-size: 1em;
+  font-size: 2em;
+  font-weight: 700;
   text-transform: uppercase;
   font-family: sans-serif;
-  text-align: center;
+  text-align: left;
+  padding-top: 20px;
 }
 
 p {
@@ -28,9 +30,23 @@ p {
   line-height: 180%;
 }
 
+.caption{
+  margin-left: 650px;
+  padding-bottom: 20px;
+}
+
+.paragraph2{
+  margin-left: 162px;
+  margin-right: 160px;
+}
+
 .footer {
 text-align: center;
 padding: 3px;
 background-color: DarkSalmon;
 color: white;
+}
+
+img{
+margin-left: 475px;
 }
