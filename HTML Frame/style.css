@@ -16,7 +16,21 @@
   text-align: center;
 }
 
+.chapterheadline {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  text-align: center;
+}
+
 p {
   font-family:georgia, serif;
   line-height: 180%;
+}
+
+.footer {
+text-align: center;
+padding: 3px;
+background-color: DarkSalmon;
+color: white;
 }
