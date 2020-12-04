@@ -31,6 +31,7 @@ html{
 }
 
 p {
+  font-size: 20px;
   font-family:georgia, serif;
   line-height: 180%;
 }
@@ -122,51 +123,39 @@ font-weight: 100;
 text-align: left;
 color: #000;
 }
-}
+
 
 .textbox{
-background-color: #fff;
-width: 80%;
-margin: 0 auto;
-margin-top: 25px;
-    margin-right: auto;
-    margin-bottom: 25px;
-    margin-left: auto;
-border: solid #F23030 1px;
-border-top-color: rgb(242, 48, 48);
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-right-color: rgb(242, 48, 48);
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-bottom-color: rgb(242, 48, 48);
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-left-color: rgb(242, 48, 48);
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-margin-top: 25px;
-margin-bottom: 25px;
-box-sizing: border-box;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  font-family: 'Poppins', serif;
+  text-align: center;
+  box-sizing: border-box;
+  border:10px;
+  background-color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  border: solid #000 1px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #FF5C5C;
+
 }
 
 .textboxtitle{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
     font-size: 1.25em;
     text-align: center;
     color: white;
-    background: #F23030;
+    background: #000;
 }
 
 .textboxintrotext{
   padding-left: 1em;
 padding-right: 1em;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
 font-size: 1em;
 text-align: left;
 }
@@ -174,7 +163,7 @@ text-align: left;
 .textboxtext{
   padding-left: 3em;
 padding-right: 3em;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
 font-size: 1em;
 text-align: left;
 color: #303030;
@@ -183,13 +172,14 @@ color: #303030;
 .textboxsourcetext{
   padding-left: 1em;
 padding-right: 1em;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
 font-size: .8em;
 text-align: left;
 color: #303030;
 }
 
-h1{
+.headline{
+  font-family:'Poppins', sans-serif;
   padding-top: 15px;
   padding-bottom: 20px;
 }
@@ -198,6 +188,22 @@ h2{
   padding-bottom: 20px;
 }
 
+.chapterheadline{
+  font-family:'Poppins', sans-serif ;
+}
+
 img{
 margin-left: 475px;
+}
+
+a:link{
+  color: blue;
+}
+
+a:visited{
+  color: purple;
+}
+
+a:hover{
+  color: yellow;
 }
